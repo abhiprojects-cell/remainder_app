@@ -1,0 +1,141 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+  background: #f7f8fa;
+}
+
+/* Page Title */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Form container */
+.center-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input field */
+input[type="text"] {
+  padding: 10px 14px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s;
+  background: white;
+}
+
+input[type="text"]:focus {
+  border-color: #4c6ef5;
+  box-shadow: 0 0 6px rgba(76, 110, 245, 0.3);
+}
+
+/* Add button */
+button {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[type="submit"] {
+  background-color: #4c6ef5;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #3b5bdb;
+}
+
+/* List container */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+/* Each list item */
+ul li {
+  background: white;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Container for edit mode */
+ul li > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Buttons inside list */
+ul button {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+/* Delete button */
+ul button:nth-child(2) {
+  background-color: #e03131;
+  color: white;
+}
+
+ul button:nth-child(2):hover {
+  background-color: #c92a2a;
+}
+
+/* Edit button */
+ul button:nth-child(3) {
+  background-color: #ffa94d;
+  color: #4d2c00;
+}
+
+ul button:nth-child(3):hover {
+  background-color: #ff922b;
+}
+
+/* Save button inside edit mode */
+ul li div button:first-of-type {
+  background-color: #2f9e44;
+  color: white;
+}
+
+ul li div button:first-of-type:hover {
+  background-color: #2b8a3e;
+}
+
+/* Cancel button inside edit mode */
+ul li div button:last-of-type {
+  background-color: #868e96;
+  color: white;
+}
+
+ul li div button:last-of-type:hover {
+  background-color: #6c757d;
+}
