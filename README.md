@@ -1,4 +1,4 @@
-📌 Reminder App
+📌 Reminder App , 
 A simple and clean Reminder Application built using React and TailwindCSS, supporting basic CRUD operations
 Create a reminder
 Read reminder list
