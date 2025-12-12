@@ -14,6 +14,6 @@ Fully responsive layout,
 🛠️ Tech Stack
 
 React
-JavaScript (ES6+)
-TailwindCSS
+JavaScript (ES6+),
+TailwindCSS,
 Vite (for development)
